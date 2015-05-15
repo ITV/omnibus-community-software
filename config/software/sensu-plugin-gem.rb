@@ -1,5 +1,5 @@
 name 'sensu-plugin-gem'
-default_version '0.3.0'
+default_version '1.1.0'
 
 dependency 'ruby'
 dependency 'rubygems'

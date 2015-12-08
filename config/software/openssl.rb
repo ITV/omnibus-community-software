@@ -19,9 +19,9 @@ if Ohai['platform'] == "aix"
   source url: "http://www.openssl.org/source/openssl-1.0.1c.tar.gz",
          md5: "ae412727c8c15b67880aef7bd2999b2e"
 else
-  default_version "1.0.1k"
-  source url: "ftp://ftp.pca.dfn.de/pub/tools/net/openssl/source/openssl-1.0.1k.tar.gz",
-         md5: "d4f002bd22a56881340105028842ae1f"
+  default_version "1.0.1q"
+  source url: "ftp://ftp.pca.dfn.de/pub/tools/net/openssl/source/openssl-1.0.1q.tar.gz",
+         md5: "54538d0cdcb912f9bc2b36268388205e"
 end
 
 relative_path "openssl-#{version}"
